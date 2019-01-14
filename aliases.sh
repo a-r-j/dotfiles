@@ -3,6 +3,11 @@ alias ..='cd ..'
 alias cdg='cd ~/Documents/github/'
 alias cddw='cd ~/Downloads/'
 alias cddc='cd ~/Documents/'
+alias resources='cd ~/Documents/github/resources/'
+alias jio='cd ~/Documents/github/jamasb.io/'
+alias notes='cd ~/Documents/github/notes/'
+alias reading='subl ~/Documents/github/notes/reading.md'
+
 
 #Git
 alias g='git'
