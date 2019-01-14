@@ -15,4 +15,16 @@ c. Paste /bin/zsh in the Command textbox and restart iTerm2.
 `brew install googler`  
 6. Add plugins to omz  
 open .zshrc and add git, zsh-syntax-highlighter, osx, brew, catimg to `plugins=(...)` line  
-7. `source .zshrc`
+7. `source .zshrc`  
+8. install (thefuck)[https://github.com/nvbn/thefuck]  
+`brew install thefuck`
+
+# Aliases  
+1. `alias .. = 'cd ..'`  
+2. `alias g = 'git'  
+3. `alias gall = 'git add *'`  
+2. `alias gm = 'git commit -m'  
+3. `alias ll = ls -l`  
+4. `alias cls = 'clear; ls'  
+`alias lcoate = 'locate'`  
+`alias grpe = 'grep'`
