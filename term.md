@@ -20,11 +20,11 @@ open .zshrc and add git, zsh-syntax-highlighter, osx, brew, catimg to `plugins=(
 `brew install thefuck`
 
 # Aliases  
-1. `alias .. = 'cd ..'`  
-2. `alias g = 'git'  
-3. `alias gall = 'git add *'`  
-2. `alias gm = 'git commit -m'  
-3. `alias ll = ls -l`  
-4. `alias cls = 'clear; ls'  
-`alias lcoate = 'locate'`  
-`alias grpe = 'grep'`
+1. `alias ..='cd ..'`  
+2. `alias g='git'  
+3. `alias gall='git add *'`  
+4. `alias gm='git commit -m'  
+5. `alias ll=ls -l`  
+6. `alias cls='clear; ls'  
+7. `alias lcoate='locate'`  
+8. `alias grpe='grep'`
