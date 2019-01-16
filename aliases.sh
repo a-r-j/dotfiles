@@ -15,6 +15,7 @@ alias gall='git add *'
 alias gm='git commit -m' 
 alias pull='git pull'
 alias push='git push'
+alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 
 #Typos 
 alias lcoate='locate'
