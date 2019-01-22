@@ -7,7 +7,7 @@ alias resources='cd ~/Documents/github/resources/'
 alias jio='cd ~/Documents/github/jamasb.io/'
 alias notes='cd ~/Documents/github/notes/'
 alias reading='subl ~/Documents/github/notes/reading.md'
-
+alias rowing='cd ~/Documents/github/rowing'
 
 #Git
 alias g='git'
@@ -21,6 +21,14 @@ alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 alias lcoate='locate'
 alias grpe='grep --color=auto'
  
+#Launching
+alias todo="open -a ClickUp"
+alias slack="open -a Slack"
+alias rs="open -a RStudio"
+alias tg="open -a Telegram\ Desktop"
+alias tm="open -a TextMate"
+alias ical="open -a Calendar"
+
 #Options
 alias ll='ls -alhF --color=auto -F'
 alias la='ls -A'
