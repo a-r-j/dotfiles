@@ -28,6 +28,7 @@ alias rs="open -a RStudio"
 alias tg="open -a Telegram\ Desktop"
 alias tm="open -a TextMate"
 alias ical="open -a Calendar"
+alias em="open -a Mail"
 
 #Options
 alias ll='ls -alhF --color=auto -F'
