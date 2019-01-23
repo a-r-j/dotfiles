@@ -29,6 +29,7 @@ alias tg="open -a Telegram\ Desktop"
 alias tm="open -a TextMate"
 alias ical="open -a Calendar"
 alias em="open -a Mail"
+alias vs="open -a Visual\ Studio\ Code"
 
 #Options
 alias ll='ls -alhF --color=auto -F'
