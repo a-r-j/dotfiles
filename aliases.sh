@@ -20,7 +20,8 @@ alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 #Typos 
 alias lcoate='locate'
 alias grpe='grep --color=auto'
- 
+alias grawl='graql'
+
 #Launching
 alias todo="open -a ClickUp"
 alias slack="open -a Slack"
