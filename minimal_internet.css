@@ -10,3 +10,6 @@ div[id*="pagelet_trending_tags_and_topics"] /* Right column: Trending tags and t
 div[id*="topnews"] { 
 	visibility: hidden !important;
 }
+
+.ytd-search .ytd-section-list-renderer:nth-child(1) { display:inherit !important;}
+.ytd-section-list-renderer:nth-child(1), ytd-browse[page-subtype=home] .ytd-grid-renderer { display:none !important;}
