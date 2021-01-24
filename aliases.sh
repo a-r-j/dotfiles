@@ -1,4 +1,4 @@
-#Navigation
+# Navigation
 alias ..='cd ..'
 alias cdg='cd ~/Documents/github/'
 alias cddw='cd ~/Downloads/'
@@ -9,7 +9,7 @@ alias notes='cd ~/Documents/github/notes/'
 alias reading='subl ~/Documents/github/notes/reading.md'
 alias rowing='cd ~/Documents/github/rowing'
 
-#Git
+# Git
 alias g='git'
 alias gall='git add *'
 alias gm='git commit -m' 
@@ -17,12 +17,13 @@ alias pull='git pull'
 alias push='git push'
 alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 
-#Typos 
+# Typos 
 alias lcoate='locate'
 alias grpe='grep --color=auto'
 alias grawl='graql'
 
-#Launching
+# Launching
+# Mac:
 alias todo="open -a ClickUp"
 alias slack="open -a Slack"
 alias rs="open -a RStudio"
@@ -32,9 +33,15 @@ alias ical="open -a Calendar"
 alias em="open -a Mail"
 alias vs="open -a Visual\ Studio\ Code"
 
-#Options
+# Linux
+# alias zotero="cd " 
+
+# Options
 alias ll='ls -alhF --color=auto -F'
 alias la='ls -A'
 alias l='ls -CF --color=auto'
 alias cls='clear; ls' 
 alias grep='grep --color=auto'
+
+# Misc
+alias install_requirements='while read requirement; do conda install --yes $requirement; done < requirements.txt'
