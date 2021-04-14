@@ -19,3 +19,8 @@ pip install --upgrade virtualenv
 pip install --upgrade jedi
 
 
+# install colorls
+gem install colorls
+source $(dirname $(gem which colorls))/tab_complete.sh >> .zshrc
+
+brew install autojump
