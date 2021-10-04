@@ -1,13 +1,13 @@
 # Navigation
 alias ..='cd ..'
-alias cdg='cd ~/Documents/github/'
+alias cdg='cd ~/github/'
 alias cddw='cd ~/Downloads/'
 alias cddc='cd ~/Documents/'
-alias resources='cd ~/Documents/github/resources/'
-alias jio='cd ~/Documents/github/jamasb.io/'
-alias notes='cd ~/Documents/github/notes/'
-alias reading='subl ~/Documents/github/notes/reading.md'
-alias rowing='cd ~/Documents/github/rowing'
+alias resources='cd ~/github/resources/'
+alias jio='cd ~//github/jamasb.io/'
+alias notes='cd ~/github/notes/'
+alias reading='subl ~/github/notes/reading.md'
+alias rowing='cd ~/github/rowing'
 
 # Git
 alias g='git'
