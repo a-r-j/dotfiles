@@ -2,6 +2,8 @@
 alias ..='cd ..'
 cddw='cd ~/Downloads/'
 alias cddc='cd ~/Documents/'
+='cd ~//github/jamasb.io/'
+alias notes='cd ~/github/notes/' 
 
 # Git
 alias g='git'
