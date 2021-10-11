@@ -1,8 +1,12 @@
 # Navigation
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 alias cdg='cd ~/github/'
 alias cddw='cd ~/Downloads/'
 alias cddc='cd ~/Documents/'
+alias cddot='cd ~/github/dotfiles/'
 alias resources='cd ~/github/resources/'
 alias jio='cd ~//github/jamasb.io/'
 alias notes='cd ~/github/notes/'
@@ -21,6 +25,10 @@ alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 alias lcoate='locate'
 alias grpe='grep --color=auto'
 alias grawl='graql'
+
+# CLI Tools
+alias wget='wget -c'
+alias ping='ping -c 5'
 
 # Launching
 # Mac:
@@ -45,3 +53,5 @@ alias grep='grep --color=auto'
 
 # Misc
 alias install_requirements='while read requirement; do conda install --yes $requirement; done < requirements.txt'
+alias lsalias="grep -on --color -e '^alias\s+*' ~/.zshrc | sed 's/alias //' | grep --color -e ':[a-z][a-z][0-9]*'"
+
