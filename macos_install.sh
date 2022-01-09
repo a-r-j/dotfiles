@@ -26,3 +26,6 @@ source $(dirname $(gem which colorls))/tab_complete.sh >> .zshrc
 brew install autojump
 brew install --cask raycast
 brew install wget
+
+# Add aliases to .zshrc
+echo "source ~/github/dotfiles/mac_aliases.sh" >> ~/.zshrc 
