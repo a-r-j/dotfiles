@@ -13,15 +13,19 @@ alias notes='cd ~/github/notes/'
 alias reading='subl ~/github/notes/reading.md'
 alias rowing='cd ~/github/rowing'
 
+alias graphein='cd ~/github/graphein'
+alias masif='cd ~/github/masif-sm'
+alias vsce='cd ~/github/vscoding-sequence'
+
 # Git
 alias g='git'
 alias gall='git add *'
-alias gm='git commit -m' 
+alias gm='git commit -m'
 alias pull='git pull'
 alias push='git push'
 alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 
-# Typos 
+# Typos
 alias lcoate='locate'
 alias grpe='grep --color=auto'
 alias grawl='graql'
@@ -42,14 +46,15 @@ alias em="open -a Mail"
 alias vs="open -a Visual\ Studio\ Code"
 
 # Linux
-# alias zotero="cd " 
+# alias zotero="cd "
 
 # Options
 alias ll='ls -alhF --color=auto -F'
 alias la='ls -A'
 alias l='ls -CF --color=auto'
-alias cls='clear; ls' 
+alias cls='clear; ls'
 alias grep='grep --color=auto'
+alias wget="wget -c"
 
 # Misc
 alias install_requirements='while read requirement; do conda install --yes $requirement; done < requirements.txt'

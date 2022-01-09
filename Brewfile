@@ -10,6 +10,7 @@ brew 'r'
 brew 'wget'
 brew 'coreutils'
 brew 'jq'
+brew 'bat'
 
 cask 'atom'
 cask 'code'

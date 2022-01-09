@@ -17,6 +17,9 @@ alias pull='git pull'
 alias push='git push'
 alias pullarj='git pull notes; git pull resources; git pull jamasb.io'
 
+
+alias cat='bat'
+
 #Typos 
 alias lcoate='locate'
 alias grpe='grep --color=auto'
@@ -34,6 +37,7 @@ alias em="open -a Mail"
 alias vs="open -a Visual\ Studio\ Code"
 
 #Options
+alias ls='lsd'
 alias ll='ls -alhF --color=auto -F'
 alias la='ls -A'
 alias l='ls -CF --color=auto'
