@@ -18,6 +18,8 @@ brew 'neovim'
 brew 'zsh-autosuggestions'
 brew 'zoxide'
 brew 'micro'
+brew 'lazygit'
+
 
 cask 'sublime-text'
 cask 'code'
