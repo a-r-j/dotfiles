@@ -13,6 +13,10 @@ alias notes='cd ~/github/notes/'
 alias reading='subl ~/github/notes/reading.md'
 alias rowing='cd ~/github/rowing'
 
+alias conda="micromamba"
+alias top="btop"
+alias htop="btop"
+
 alias graphein='cd ~/github/graphein'
 alias masif='cd ~/github/masif-sm'
 alias vsce='cd ~/github/vscoding-sequence'
@@ -44,19 +48,29 @@ alias tm="open -a TextMate"
 alias ical="open -a Calendar"
 alias em="open -a Mail"
 alias vs="open -a Visual\ Studio\ Code"
+alias cal=" open -a Cron"
+alias vim="nvim"
+
 
 # Linux
 # alias zotero="cd "
 
 # Options
+alias ls="eza --icons=always"
 alias ll='ls -alhF --color=auto -F'
 alias la='ls -A'
 alias l='ls -CF --color=auto'
 alias cls='clear; ls'
-alias grep='grep --color=auto'
+alias grep="rg"
 alias wget="wget -c"
+alias more="bat"
+alias cat="bat"
+alias nan="micro"
+alias du="dust"
+alias cd="z"
 
 # Misc
 alias install_requirements='while read requirement; do conda install --yes $requirement; done < requirements.txt'
 alias lsalias="grep -on --color -e '^alias\s+*' ~/.zshrc | sed 's/alias //' | grep --color -e ':[a-z][a-z][0-9]*'"
+
 
