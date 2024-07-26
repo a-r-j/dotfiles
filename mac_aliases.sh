@@ -37,9 +37,6 @@ alias em="open -a Mail"
 alias vs="open -a Visual\ Studio\ Code"
 
 #Options
-alias ls='lsd'
-alias ll='ls -alhF --color=auto -F'
-alias la='ls -A'
-alias l='ls -CF --color=auto'
-alias cls='clear; ls' 
-alias grep='grep --color=auto'
+
+# Renames
+alias cb="pbcopy"

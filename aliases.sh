@@ -71,6 +71,6 @@ alias cd="z"
 
 # Misc
 alias install_requirements='while read requirement; do conda install --yes $requirement; done < requirements.txt'
-alias lsalias="grep -on --color -e '^alias\s+*' ~/.zshrc | sed 's/alias //' | grep --color -e ':[a-z][a-z][0-9]*'"
+alias lsalias="grep -on -e '^alias\s+*' ~/.zshrc | sed 's/alias //' | grep --color -e ':[a-z][a-z][0-9]*'"
 
 
